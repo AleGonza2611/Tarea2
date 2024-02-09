@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>CyberPunk/Consultas</title>
+        <meta charset="UTF-8"/> <!-- Letras normales -->
+        <!-- config de la pagina -->
+        <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
+    </head>
+    <!-- Todo el contenido -->
+    <body>
+        <!-- Header = encabezado -->
+
+        <header class="encabezado">
+            <nav class="navegacion">
+                <a class="logo nav-link"
+                href="index.html">
+                    
+                <img src="img/dlf.pt-cyberpunk-png-485559.png" height="80" alt=""/></a>
+                
+                <ul class="nav-menu">
+                    <li class="nav-menu-item"><a class="logo nav-link nav-menu-link" href="Nightcity.html">Mapa</a></li>
+                    <li class="nav-menu-item"><a class="logo nav-link nav-menu-link" href="Videos.html">Videos</a></li>
+                    <li class="nav-menu-item"><a class="logo nav-link nav-menu-link" href="Streetslang.html">Streetslang</a></li>
+                    <li class="nav-menu-item"><a class="logo nav-link nav-menu-link" href="Comprar.html">Productos</a></li>
+                    <li class="nav-menu-item"><a class="logo nav-link nav-menu-link" href="Implantes.html">Cyberware</a></li>
+
+                </ul>   
+            </nav>
+        </header>
+
+
+
+
+        <aside>
+            <h2 style="color: white">¿Tienes alguna consulta y te gustaría hablar con un administrador?</h2>
+            <p style="color: white">Llena la siguiente forma y te ayudaremos a evacuar tus dudas.  
+                También aceptamos sugerencias y bug reports.
+            </p>
+            <p style="color: white">    
+
+                Si lo que necesitas es atención imediata contacta al siguiente número: 
+            </p>
+
+            <p style="color: white"><b></b> XXXX-XXXX-4008</p>
+        </aside>
+
+        <section>
+            <h2 style="color: white"> Porfavor, llene los siguientes campos:</h2>
+            <article>
+                <h3>Su informacion personal</h3>
+                <form action="/usuario/agregar" method="post">
+
+                    Nombre completo: <input type="text" name="nombre" value="" size="40" /><br/>
+                    Correo: <input type="email" name="Correo" value="" size="40" /><br/>
+                    <h4 style="color: white">Escribe tu consulta en el sigueinte recuadro</h4>
+                    <input type="text" name="Consulta" value="" />
+                    <input type="submit" value="Enviar" /><br/>
+                </form>
+            </article>
+        </section>
+
+        <footer>
+            &COPY; CyberPunk
+        </footer> 
+    </body>
+</html>
